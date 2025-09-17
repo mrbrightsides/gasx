@@ -40,13 +40,6 @@ with st.sidebar:
     11. [BlockPedia](https://blockpedia.streamlit.app/)
 
     ---
-    ### ⛱ STC Ecosystem
-    1. [STC GasX](https://stc-gasx.streamlit.app/)
-    2. [STC SecureX](https://stc-securex.streamlit.app/)
-    3. [STC BenchX](https://stc-benchx.streamlit.app/)
-    4. [STC MergeX](https://stc-mergex.streamlit.app/)
-
-    ---
     #### 🙌 Dukungan & kontributor
     - ⭐ **Star / Fork**: [GitHub repo](https://github.com/mrbrightsides/gasx)
     - Built with 💙 by [Khudri](https://s.id/khudri)
