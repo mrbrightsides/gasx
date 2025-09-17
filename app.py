@@ -14,43 +14,17 @@ with st.sidebar:
     )
     st.sidebar.markdown("📘 **About**")
     st.sidebar.markdown("""
-    STC DataHub adalah data hub pariwisata berbasis open-source yang menghubungkan berbagai sumber dataset — dari Kaggle, portal pemerintah, repositori akademik, hingga layanan publik global seperti OpenStreetMap dan InsideAirbnb.
+    **STC GasX** adalah **Web3 Cost Comparator** yang menghubungkan biaya transaksi blockchain dengan biaya off-chain tradisional. Dengan memanfaatkan harga gas Ethereum terkini, konversi mata uang real-time, dan parameter biaya off-chain yang bisa diatur pengguna, GasX memberikan **wawasan yang jelas dan actionable** bagi siapa saja yang ingin mengevaluasi efisiensi biaya solusi Web3 dibandingkan metode konvensional.  
 
+    Baik untuk peneliti, developer, maupun analis bisnis, GasX membantu **memvisualisasikan biaya per transaksi**, memahami komposisi biaya, dan mengambil **keputusan berbasis data** untuk adopsi Web3.
+    
     ---
     #### 🔮 Vision Statement
-    > To become the trusted, extensible hub for tourism-related datasets, enabling researchers, developers, and communities to build transparent, verifiable, and innovative solutions for the future of smart tourism.
+    > STC GasX membayangkan masa depan di mana **adopsi Web3 dipandu oleh kejelasan dan wawasan**, memungkinkan keputusan yang lebih cerdas dan integrasi yang lebih mulus antara blockchain dan sistem keuangan tradisional.
     
-    Dengan STC DataHub, data pariwisata yang tadinya terpecah-pecah, sulit diakses, atau tidak terdokumentasi dengan baik bisa:
-
-    - 📊 Distandardisasi → kolom seragam, format rapi.
-
-    - 🛡️ Dipertanggungjawabkan → setiap dataset punya provenance log.
-
-    - 🌍 Dibagikan lintas ekosistem → siap dipakai untuk riset, dashboard, hingga Web3.
-    
-    ---
-    ### ❓ How to Log in
-    
-    Untuk menjaga keamanan sekaligus kemudahan akses, STC DataHub mendukung dua mode login:
-
-    1. Local Admin Login (MVP)
-    
-    - Gunakan akun admin yang sudah terdaftar di .env (ADMIN_EMAIL, ADMIN_PASSWORD).
-    
-    - Masuk via Admin UI (http://localhost:3000/login)
-    
-    - Cocok untuk pengujian dan setup awal.
-    
-    2. Sign-In with Ethereum (SIWE)
-    
-    - Klik tombol Login with Wallet di UI.
-    
-    - Hubungkan wallet (MetaMask atau WalletConnect).
-    
-    - Tandatangani pesan SIWE untuk autentikasi.
-    
-    - Dataset premium / terbatas bisa diatur hanya bisa diakses oleh wallet yang valid.
-    
+    Visi kami adalah membuat **transparansi finansial Web3** menjadi sederhana dan mudah diakses.  
+    Kami ingin memberdayakan pengguna—akademisi, perusahaan, maupun penggiat teknologi—untuk **membandingkan, menganalisis, dan mengoptimalkan biaya transaksi** antara on-chain dan off-chain.  
+        
     ---
     ### 🧩 RANTAI Ecosystem
     1. [STC Analytics](https://stc-analytics.streamlit.app/)
@@ -62,11 +36,19 @@ with st.sidebar:
     7. [SmartFaith](https://smartfaith.streamlit.app/)
     8. [Learn3](https://learn3.streamlit.app/)
     9. [Nexus](https://rantai-nexus.streamlit.app/)
-    10. [BlockPedia](https://blockpedia.streamlit.app/)
+    10. [DataHub](https://stc-data.streamlit.app/)
+    11. [BlockPedia](https://blockpedia.streamlit.app/)
+
+    ---
+    ### ⛱ STC Ecosystem
+    1. [STC GasX](https://stc-gasx.streamlit.app/)
+    2. [STC SecureX](https://stc-securex.streamlit.app/)
+    3. [STC BenchX](https://stc-benchx.streamlit.app/)
+    4. [STC MergeX](https://stc-mergex.streamlit.app/)
 
     ---
     #### 🙌 Dukungan & kontributor
-    - ⭐ **Star / Fork**: [GitHub repo](https://github.com/mrbrightsides/stc-datahub)
+    - ⭐ **Star / Fork**: [GitHub repo](https://github.com/mrbrightsides/gasx)
     - Built with 💙 by [Khudri](https://s.id/khudri)
     - Dukung pengembangan proyek ini melalui: 
       [💖 GitHub Sponsors](https://github.com/sponsors/mrbrightsides) • 
@@ -87,7 +69,7 @@ def embed_iframe(src, hide_top_px=72, height=800):
     """, height=height)
 
 # URL Ohara
-iframe_url = "https://ohara.ai/mini-apps/miniapp_cmfmsw1y30am90anxbbbb06o2"
+iframe_url = "https://ohara.ai/mini-apps/64e57aa9-ff79-43bc-b8d0-6792de312979"
 
 # Panggil fungsi
 embed_iframe(iframe_url, hide_top_px=110, height=800)
