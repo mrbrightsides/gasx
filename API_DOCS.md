@@ -271,7 +271,7 @@ POST /api/compare
 ```javascript
 async function getGasPrices() {
   try {
-    const response = await fetch('https://your-domain.com/api/gas-price');
+    const response = await fetch('https://stc-gasx.elpeef.com/api/gas-price');
     const data = await response.json();
     
     console.log('Ethereum gas:', data.ethereum.gasPrice, 'Gwei');
@@ -291,7 +291,7 @@ getGasPrices();
 ```javascript
 async function compareCosts(transactionData) {
   try {
-    const response = await fetch('https://your-domain.com/api/compare', {
+    const response = await fetch('https://stc-gasx.elpeef.com/api/compare', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -334,7 +334,7 @@ compareCosts();
 import requests
 
 def get_exchange_rates(currencies=None):
-    url = 'https://your-domain.com/api/exchange-rate'
+    url = 'https://stc-gasx.elpeef.com/api/exchange-rate'
     
     params = {}
     if currencies:
@@ -413,21 +413,21 @@ result = compare_transaction_costs(
 #### Get Gas Prices
 
 ```bash
-curl -X GET 'https://your-domain.com/api/gas-price' \
+curl -X GET 'https://stc-gasx.elpeef.com/api/gas-price' \
   -H 'Accept: application/json'
 ```
 
 #### Get Exchange Rates
 
 ```bash
-curl -X GET 'https://your-domain.com/api/exchange-rate?currencies=idr,myr,sgd' \
+curl -X GET 'https:/stc-gasx.elpeef.com/api/exchange-rate?currencies=idr,myr,sgd' \
   -H 'Accept: application/json'
 ```
 
 #### Compare Costs
 
 ```bash
-curl -X POST 'https://your-domain.com/api/compare' \
+curl -X POST 'https://stc-gasx.elpeef.com/api/compare' \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json' \
   -d '{
@@ -571,7 +571,7 @@ def collect_historical_data(days=30):
     
     for i in range(days):
         try:
-            response = requests.get('https://your-domain.com/api/gas-price')
+            response = requests.get('https:/stc-gasx.elpeef.com/api/gas-price')
             prices = response.json()
             
             data.append({
@@ -611,20 +611,19 @@ Future support for webhook notifications:
 
 - 📖 [User Guide](./USER_GUIDE.md)
 - 🏠 [Main Documentation](../README.md)
-- 🐛 [Report Issues](https://github.com/mrbrightsides/stc-gasx/issues)
-- 💬 [Discussions](https://github.com/mrbrightsides/stc-gasx/discussions)
+- 🐛 [Report Issues](https://github.com/mrbrightsides/gasx/issues)
+- 💬 [Discussions](https://github.com/mrbrightsides/gasx/discussions)
 
 ### Contact
 
-- **Email**: api@stcgasx.com
+- **Email**: support@elpeef.com
 - **GitHub**: [@mrbrightsides](https://github.com/mrbrightsides)
-- **Telegram**: [@stcgasx](https://t.me/stcgasx)
 
 ---
 
 ## Changelog
 
-### Version 1.0.0 (January 2025)
+### Version 1.0.0 (October 2025)
 - Initial API release
 - Multi-chain gas price endpoint
 - Exchange rate endpoint
