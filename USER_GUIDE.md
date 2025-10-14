@@ -53,7 +53,7 @@
 
 STC GasX **TIDAK memerlukan login**! Buka langsung di browser:
 ```
-https://stc-gasx.vercel.app
+https://stc-gasx.elpeef.com
 ```
 
 ### Interface Utama
@@ -665,10 +665,10 @@ Timestamp,Tx Hash,Gas Used,Gas Price (Gwei),Fee (ETH),Fee (Rp)
 
 Jika masih ada masalah:
 
-- 🐛 **Report Bug**: [GitHub Issues](https://github.com/mrbrightsides/stc-gasx/issues)
-- 💬 **Diskusi**: [GitHub Discussions](https://github.com/mrbrightsides/stc-gasx/discussions)
-- 📧 **Email**: contact@stcgasx.com
-- 💬 **Telegram**: [@stcgasx](https://t.me/stcgasx)
+- 🐛 **Report Bug**: [GitHub Issues](https://github.com/mrbrightsides/gasx/issues)
+- 💬 **Diskusi**: [GitHub Discussions](https://github.com/mrbrightsides/gasx/discussions)
+- 📧 **Email**: support@elpeef.com
+- 💬 **Telegram**: [@stcgasx](https://t.me/khudriakhmad)
 
 ---
 
@@ -724,7 +724,7 @@ Jika masih ada masalah:
 
 STC GasX requires **NO authentication**! Access directly in your browser:
 ```
-https://stc-gasx.vercel.app
+https://stc-gasx.elpeef.com
 ```
 
 ### Main Interface
@@ -838,9 +838,9 @@ A: Yes! Public API available with 100 requests/minute rate limit.
 
 ## 📞 Need Help?
 
-- 🐛 **Report Bugs**: [GitHub Issues](https://github.com/mrbrightsides/stc-gasx/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/mrbrightsides/stc-gasx/discussions)
-- 📧 **Email**: contact@stcgasx.com
+- 🐛 **Report Bugs**: [GitHub Issues](https://github.com/mrbrightsides/gasx/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/mrbrightsides/gasx/discussions)
+- 📧 **Email**: support@elpeef.com
 
 ---
 
