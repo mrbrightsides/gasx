@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Akhmad Khudri
+Copyright (c) 2025 STC GasX Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,67 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## What This Means (Plain English)
+
+✅ **You CAN**:
+- Use this software commercially
+- Modify the source code
+- Distribute copies
+- Use it privately
+- Sublicense it
+
+❌ **You CANNOT**:
+- Hold the authors liable
+- Expect any warranty
+
+⚠️ **You MUST**:
+- Include the original license and copyright notice
+- State any significant changes you make
+
+---
+
+## Third-Party Licenses
+
+This project uses the following open-source libraries:
+
+- **Next.js** - MIT License
+- **React** - MIT License
+- **Tailwind CSS** - MIT License
+- **Recharts** - MIT License
+- **shadcn/ui** - MIT License
+- **Radix UI** - MIT License
+- **Lucide Icons** - ISC License
+- **jsPDF** - MIT License
+- **date-fns** - MIT License
+
+Full license texts for these libraries can be found in their respective `node_modules` directories.
+
+---
+
+## Data Source Attributions
+
+This project integrates data from the following APIs:
+
+- **CoinGecko API** - [Terms of Service](https://www.coingecko.com/en/api_terms)
+- **Frankfurter API** - [GitHub](https://github.com/hakanensari/frankfurter)
+- **Infura** - [Terms of Service](https://infura.io/terms)
+- **Various Blockchain RPCs** - See individual chain documentation
+
+Users of this software are responsible for complying with the terms of service of these data providers.
+
+---
+
+## Contributing
+
+By contributing to this project, you agree that your contributions will be licensed under the MIT License.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+
+---
+
+**STC GasX** - Making Web3 cost analysis accessible to everyone.
+
+Built with ❤️ for the Web3 community.

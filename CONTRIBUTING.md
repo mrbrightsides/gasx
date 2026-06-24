@@ -61,7 +61,7 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 
 ### 🐛 Reporting Bugs
 
-Before creating bug reports, please check the [existing issues](https://github.com/mrbrightsides/gasx/issues) to avoid duplicates.
+Before creating bug reports, please check the [existing issues](https://github.com/mrbrightsides/stc-gasx/issues) to avoid duplicates.
 
 When you create a bug report, include as many details as possible:
 
@@ -143,13 +143,13 @@ We love pull requests! Here's how you can contribute:
 
 1. **Clone your fork:**
 ```bash
-git clone https://github.com/mrbrightsides/gasx.git
+git clone https://github.com/YOUR_USERNAME/stc-gasx.git
 cd stc-gasx
 ```
 
 2. **Add upstream remote:**
 ```bash
-git remote add upstream https://github.com/mrbrightsides/gasx.git
+git remote add upstream https://github.com/mrbrightsides/stc-gasx.git
 ```
 
 3. **Install dependencies:**
@@ -581,13 +581,14 @@ We maintain a list of top contributors based on:
 - 📖 [User Guide](./docs/USER_GUIDE.md)
 - 🛠️ [API Documentation](./docs/API_DOCS.md)
 - 🏠 [Main README](./README.md)
-- 💬 [GitHub Discussions](https://github.com/mrbrightsides/gasx/discussions)
+- 💬 [GitHub Discussions](https://github.com/mrbrightsides/stc-gasx/discussions)
 
 ### Communication Channels
 
 - **GitHub Issues** - Bug reports and feature requests
 - **GitHub Discussions** - Questions and general discussion
-- **Email** - support@elpeef.com
+- **Email** - contact@stcgasx.com
+- **Telegram** - [@stcgasx](https://t.me/stcgasx)
 
 ### Response Time
 
@@ -615,6 +616,6 @@ Your contributions make STC GasX better for everyone. Whether you're fixing a ty
 
 **Questions?** Feel free to reach out!
 
-[GitHub](https://github.com/mrbrightsides) | [Email](mailto:support@elpeef.com) | [Telegram](https://t.me/khudriakhmad)
+[GitHub](https://github.com/mrbrightsides) | [Email](mailto:contact@stcgasx.com) | [Telegram](https://t.me/stcgasx)
 
 </div>
